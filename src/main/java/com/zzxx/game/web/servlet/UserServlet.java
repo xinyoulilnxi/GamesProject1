@@ -1,4 +1,4 @@
-package com.zzxx.game.servlet;
+package com.zzxx.game.web.servlet;
 
 import com.zzxx.game.domain.ResultInfo;
 import com.zzxx.game.domain.User;
