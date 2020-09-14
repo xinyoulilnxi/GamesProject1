@@ -1,4 +1,4 @@
-package com.zzxx.game.Dao;
+package com.zzxx.game.dao;
 
 import com.zzxx.game.domain.Game;
 

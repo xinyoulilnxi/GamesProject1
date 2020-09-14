@@ -1,6 +1,6 @@
-package com.zzxx.game.Dao.impl;
+package com.zzxx.game.dao.impl;
 
-import com.zzxx.game.Dao.GameDao;
+import com.zzxx.game.dao.GameDao;
 import com.zzxx.game.domain.Game;
 import com.zzxx.game.util.JDBCUtils;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;

@@ -1,7 +1,7 @@
 package com.zzxx.game.service.impl;
 
-import com.zzxx.game.Dao.GameDao;
-import com.zzxx.game.Dao.impl.GameDaoImpl;
+import com.zzxx.game.dao.GameDao;
+import com.zzxx.game.dao.impl.GameDaoImpl;
 import com.zzxx.game.domain.Game;
 import com.zzxx.game.service.GameService;
 import com.zzxx.game.util.JedisUtil;
