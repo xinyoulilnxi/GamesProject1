@@ -19,10 +19,6 @@ public class GameServlet extends BaseServlet {
     //查找所有
     public void findAll(HttpServletRequest request, HttpServletResponse response) throws IOException{
         List<Game> list = gs.findAll();
-
-        response.setContentType("application/json;charset=utf-8");
-
-        ObjectMapper mapper = new ObjectMapper();
-        mapper.writeValue(response.getOutputStream(), list);
+        writeValue(response,list);
     }
 }
